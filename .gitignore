@@ -1,0 +1,10 @@
+cat <<EOF > .gitignore
+venv/
+__pycache__/
+*.pyc
+*.log
+data/
+.env
+notes
+cronoutput.log
+EOF
